@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "C:\\Users\\suchi\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\suchi\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\suchi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\.cxx\\cmake\\release\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\suchi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\.cxx\\cmake\\release\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "tensorflow_demo-Release-x86_64": {
+      "artifactName": "tensorflow_demo",
+      "buildCommand": "C:\\Users\\suchi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\.cxx\\cmake\\release\\x86_64\" tensorflow_demo",
+      "abi": "x86_64",
+      "output": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libtensorflow_demo.so"
+    }
+  }
+}

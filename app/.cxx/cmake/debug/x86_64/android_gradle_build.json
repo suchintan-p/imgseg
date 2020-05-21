@@ -1,0 +1,210 @@
+{
+  "stringTable": {
+    "0": "C:/Users/suchi/Desktop/image-segmenter-android-master/app/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android24 --gcc-toolchain=C:/Users/suchi/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/suchi/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtensorflow_demo_EXPORTS -IC:/Users/suchi/Desktop/image-segmenter-android-master/app/src/main/jni -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DSTANDALONE_DEMO_LIB -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing -fPIE -O0 -fno-limit-debug-info -fPIC",
+    "2": "null"
+  },
+  "buildFiles": [
+    "C:\\Users\\suchi\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\suchi\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\suchi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\suchi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "tensorflow_demo-Debug-x86_64": {
+      "buildCommand": "C:\\Users\\suchi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\.cxx\\cmake\\debug\\x86_64\" tensorflow_demo",
+      "buildType": "debug",
+      "toolchain": "3260466281",
+      "abi": "x86_64",
+      "artifactName": "tensorflow_demo",
+      "files": [
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\CMakeLists.txt",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\imageutils_jni.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\frame_pair.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\image_neon.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\keypoint_detector.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\logging.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\object_detector.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\object_tracker.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\object_tracker_jni.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\optical_flow.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\time_log.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\tracked_object.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\utils_neon.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\rgb2yuv.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\yuv2rgb.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\flow_cache.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\frame_pair.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\geom.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\gl_utils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\image-inl.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\image.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\image_data.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\image_utils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\integral_image.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\jni_utils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\keypoint.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\keypoint_detector.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\logging.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\object_detector.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\object_model.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\object_tracker.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\optical_flow.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\sprite.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\time_log.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\tracked_object.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\object_tracking\\utils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\rgb2yuv.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\src\\main\\jni\\yuv2rgb.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Users\\suchi\\Desktop\\image-segmenter-android-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libtensorflow_demo.so"
+    }
+  },
+  "toolchains": {
+    "3260466281": {
+      "cppCompilerExecutable": "C:\\Users\\suchi\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}

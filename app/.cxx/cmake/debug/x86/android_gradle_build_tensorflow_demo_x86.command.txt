@@ -1,0 +1,7 @@
+Executable : C:\Users\suchi\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+C:\Users\suchi\Desktop\image-segmenter-android-master\app\.cxx\cmake\debug\x86
+tensorflow_demo
+jvmArgs : 
+
